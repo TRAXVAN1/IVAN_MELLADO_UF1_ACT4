@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">IVAN_MELLADO_UF1_ACT4</string>
+    <string name="logcatButton">Logcat Button</string>
+    <string name="toastButton">Toast Button</string>
+    <string name="act4">UF1 ACT4</string>
+    <string name="logcatAnswer">PITUFO ENFADADO</string>
+    <string name="toastAnswer">PITUFO LISTO</string>
+    <string name="pitufo">Pitufo</string>
+</resources>

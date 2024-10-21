@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rotationX="4"
+        android:rotationY="28"
+        android:text="@string/act4"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/logcat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="#D500ED"
+        android:rotation="15"
+        android:rotationX="-6"
+        android:rotationY="-45"
+        android:text="@string/logcatButton"
+        android:textColor="#008DFF"
+        android:textSize="48sp"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="120dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/pitufo"
+        app:srcCompat="@drawable/pitufo" />
+
+    <Button
+        android:id="@+id/toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#48FF00"
+        android:rotation="-2"
+        android:rotationX="6"
+        android:rotationY="28"
+        android:text="@string/toastButton"
+        android:textColor="#C70808"
+        android:textSize="48sp"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="120dp" />
+
+</LinearLayout>
